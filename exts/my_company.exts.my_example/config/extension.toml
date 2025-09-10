@@ -1,0 +1,12 @@
+[package]
+version = "1.0.0"
+title = "Extension Example"
+
+[dependencies]
+"omni.ui" = {}
+"omni.kit.menu.utils" = {}
+"omni.kit.actions.core" = {}
+"omni.kit.notification_manager" = {}
+
+[[python.module]]
+name = "my_company.exts.my_example"
